@@ -7,9 +7,9 @@
 clear; clc; close all;
 
 %% Link lengths
-r = 70;     % crank |QA| = |OQ|
-L = 210;    % long links |OB| = |OD|
-s = 100;    % rhombus sides |AB| = |BP| = |PD| = |DA|
+r = 60;     % crank |QA| = |OQ|
+L = 150;    % long links |OB| = |OD|
+s = 60;    % rhombus sides |AB| = |BP| = |PD| = |DA|
 
 k         = L^2 - s^2;                    % |OA|*|OP| = k
 x_line    = k / (2*r);                    % P always has this x
